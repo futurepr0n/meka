@@ -39,7 +39,12 @@ Build
 
 - Windows: Using Visual Studio 2017 (free community edition is ok), open `meka/srcs/projects/msvc/Meka.sln` and build. The project is setup to grab dependencies (Allegro, Nasm) using Nuget.
 - Linux: `cd meka/srcs ; make`
-- OSX: `cd meka/srcs ; make` or open `meka/srcs/projects/xcode` with xcode (may be not up to date)
+- OSX: 
+    Dependencies:
+    brew install pandoc latex2html ctags-exuberant liballegro libglade mesalib-glw
+    
+    libglademm 
+`cd meka/srcs ; make` or open `meka/srcs/projects/xcode` with xcode (may be not up to date)
 
 This project is looking for Linux and OSX maintainers.
 
